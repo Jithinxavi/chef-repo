@@ -27,10 +27,10 @@ define :ruby_packages, :action => :install do
     [
       "ruby#{rv}",
       "ruby#{rv}-dev",
-      "rdoc#{rv}",
-      "ri#{rv}",
-      "irb#{rv}",
-      "libopenssl-ruby#{rv}",
+      # "rdoc#{rv}",
+      # "ri#{rv}",
+      # "irb#{rv}",
+      # "libopenssl-ruby#{rv}",
      ("libshadow-ruby1.8" if rv == "1.8")
     ].compact
 
