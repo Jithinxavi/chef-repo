@@ -1,45 +1,45 @@
 {
-  "name": "python",
-  "description": "Installs python packages. Includes LWRPs for managing `pip` packages and `virtualenv` isolated Python environments.",
-  "long_description": "",
-  "maintainer": "Opscode, Inc.",
-  "maintainer_email": "cookbooks@opscode.com",
+  "providing": {
+  },
   "license": "Apache 2.0",
+  "maintainer": "Opscode, Inc.",
+  "replacing": {
+  },
+  "maintainer_email": "cookbooks@opscode.com",
+  "groupings": {
+  },
+  "description": "Installs python packages. Includes LWRPs for managing `pip` packages and `virtualenv` isolated Python environments.",
+  "version": "1.0.1",
+  "recommendations": {
+  },
+  "attributes": {
+  },
+  "recipes": {
+    "python": "Installs python, pip, and virtualenv"
+  },
+  "suggestions": {
+  },
+  "dependencies": {
+  },
   "platforms": {
     "debian": [
 
     ],
-    "ubuntu": [
+    "fedora": [
 
     ],
     "centos": [
 
     ],
-    "redhat": [
+    "ubuntu": [
 
     ],
-    "fedora": [
+    "redhat": [
 
     ]
   },
-  "dependencies": {
-  },
-  "recommendations": {
-  },
-  "suggestions": {
-  },
+  "name": "python",
+  "long_description": "",
   "conflicting": {
-  },
-  "providing": {
-  },
-  "replacing": {
-  },
-  "attributes": {
-  },
-  "groupings": {
-  },
-  "recipes": {
-    "python": "Installs python, pip, and virtualenv"
-  },
-  "version": "1.0.1"
+  }
 }
