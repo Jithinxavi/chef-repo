@@ -24,7 +24,7 @@ include_recipe "apache2::mod_ssl"
 include_recipe "apache2::mod_rewrite"
 include_recipe "passenger_apache2::mod_rails"
 
-# server_aliases = [ "#{app['id']}.#{node[:domain]}", node.fqdn ]
+server_aliases = [ "#{app['id']}.#{node[:domain]}", node.fqdn ]
 
 if node.has_key?("ec2")
   server_aliases << node.ec2.public_hostname
@@ -35,7 +35,7 @@ web_app app['id'] do
   template "#{app['id']}.conf.erb"
   #cookbook "#{app['id']}"
   #server_name "#{app['id']}.#{node[:domain]}"
-  server_name node.has_key?("ec2") ? node.ec2.public_ip : node[:ipaddress]
+  server_name node.has_key?("ec2") ? node.ec2.public_ipv4 : node[:ipaddress]
   server_aliases server_aliases
   log_dir node[:apache][:log_dir]
   rails_env node.app_environment

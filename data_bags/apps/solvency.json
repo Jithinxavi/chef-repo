@@ -10,6 +10,7 @@
     ]
   },
   "packages": {
+    "libcurl4-openssl-dev": ""
   },
   "gems": {
     "rake": "",
