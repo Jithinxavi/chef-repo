@@ -1,14 +1,4 @@
 {
-  "providing": {
-  },
-  "license": "Apache 2.0",
-  "maintainer": "Opscode, Inc.",
-  "replacing": {
-  },
-  "maintainer_email": "cookbooks@opscode.com",
-  "groupings": {
-  },
-  "description": "Installs runit and provides runit_service definition",
   "version": "0.14.2",
   "recommendations": {
   },
@@ -24,8 +14,8 @@
       "recipes": [
 
       ],
-      "description": "Location of services managed by runit",
-      "display_name": "Runit sv directory"
+      "display_name": "Runit sv directory",
+      "description": "Location of services managed by runit"
     },
     "runit/service_dir": {
       "required": "optional",
@@ -38,8 +28,8 @@
       "recipes": [
 
       ],
-      "description": "Symlinks to services managed under runit",
-      "display_name": "Runit service directory"
+      "display_name": "Runit service directory",
+      "description": "Symlinks to services managed under runit"
     },
     "runit": {
       "required": "optional",
@@ -51,8 +41,8 @@
       "recipes": [
 
       ],
-      "description": "Hash of runit attributes",
-      "display_name": "Runit"
+      "display_name": "Runit",
+      "description": "Hash of runit attributes"
     },
     "runit/sv_bin": {
       "required": "optional",
@@ -65,8 +55,8 @@
       "recipes": [
 
       ],
-      "description": "Location of the sv binary",
-      "display_name": "Runit sv bin"
+      "display_name": "Runit sv bin",
+      "description": "Location of the sv binary"
     },
     "runit/chpst_bin": {
       "required": "optional",
@@ -79,16 +69,29 @@
       "recipes": [
 
       ],
-      "description": "Location of the chpst binary",
-      "display_name": "Runit chpst bin"
+      "display_name": "Runit chpst bin",
+      "description": "Location of the chpst binary"
     }
-  },
-  "recipes": {
-    "runit": "Installs and configures runit"
   },
   "suggestions": {
   },
   "dependencies": {
+  },
+  "long_description": "",
+  "description": "Installs runit and provides runit_service definition",
+  "conflicting": {
+  },
+  "recipes": {
+    "runit": "Installs and configures runit"
+  },
+  "providing": {
+  },
+  "maintainer": "Opscode, Inc.",
+  "replacing": {
+  },
+  "name": "runit",
+  "maintainer_email": "cookbooks@opscode.com",
+  "groupings": {
   },
   "platforms": {
     "debian": [
@@ -101,8 +104,5 @@
 
     ]
   },
-  "name": "runit",
-  "long_description": "",
-  "conflicting": {
-  }
+  "license": "Apache 2.0"
 }

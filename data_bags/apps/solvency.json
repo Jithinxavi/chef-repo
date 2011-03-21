@@ -5,12 +5,16 @@
   ],
   "type": {
     "solvency": [
+	  "rubygems",
       "rails",
       "mck_passenger"
     ]
   },
   "packages": {
     "libcurl4-openssl-dev": ""
+  },
+  "rubygems": {
+    "version": "1.4.2"
   },
   "gems": {
     "rake": "",

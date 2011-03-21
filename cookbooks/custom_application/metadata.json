@@ -48,7 +48,7 @@
   "maintainer": "Opscode, Inc.",
   "replacing": {
   },
-  "name": "application",
+  "name": "custom_application",
   "maintainer_email": "cookbooks@opscode.com",
   "groupings": {
   },
