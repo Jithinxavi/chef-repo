@@ -1,0 +1,558 @@
+  [WARN] Fog::AWS::Compute.new is deprecated, use Fog::Compute.new(:provider => 'AWS') instead (/Users/tnewton/.rvm/gems/ruby-1.8.7-p334/gems/fog-0.7.0/lib/fog/core/service.rb:58:in `new') 
+FATAL: SIGINT received, stopping
+FATAL: SIGINT received, stopping
+/Users/tnewton/.rvm/rubies/ruby-1.8.7-p334/lib/ruby/1.8/delegate.rb:300:in `DelegateClass': Interrupt
+	from /Users/tnewton/.rvm/rubies/ruby-1.8.7-p334/lib/ruby/1.8/delegate.rb:295:in `each'
+	from /Users/tnewton/.rvm/rubies/ruby-1.8.7-p334/lib/ruby/1.8/delegate.rb:295:in `DelegateClass'
+	from /Users/tnewton/.rvm/rubies/ruby-1.8.7-p334/lib/ruby/1.8/tempfile.rb:12
+	from /Users/tnewton/.rvm/rubies/ruby-1.8.7-p334/lib/ruby/site_ruby/1.8/rubygems/custom_require.rb:31:in `gem_original_require'
+	from /Users/tnewton/.rvm/rubies/ruby-1.8.7-p334/lib/ruby/site_ruby/1.8/rubygems/custom_require.rb:31:in `require'
+	from /Users/tnewton/.rvm/gems/ruby-1.8.7-p334/gems/chef-0.9.14/lib/chef/rest.rb:26
+	from /Users/tnewton/.rvm/rubies/ruby-1.8.7-p334/lib/ruby/site_ruby/1.8/rubygems/custom_require.rb:31:in `gem_original_require'
+	from /Users/tnewton/.rvm/rubies/ruby-1.8.7-p334/lib/ruby/site_ruby/1.8/rubygems/custom_require.rb:31:in `require'
+	from /Users/tnewton/.rvm/gems/ruby-1.8.7-p334/gems/chef-0.9.14/lib/chef/client.rb:24
+	from /Users/tnewton/.rvm/rubies/ruby-1.8.7-p334/lib/ruby/site_ruby/1.8/rubygems/custom_require.rb:31:in `gem_original_require'
+	from /Users/tnewton/.rvm/rubies/ruby-1.8.7-p334/lib/ruby/site_ruby/1.8/rubygems/custom_require.rb:31:in `require'
+	from /Users/tnewton/.rvm/gems/ruby-1.8.7-p334/gems/chef-0.9.14/lib/chef/application/knife.rb:20
+	from /Users/tnewton/.rvm/rubies/ruby-1.8.7-p334/lib/ruby/site_ruby/1.8/rubygems/custom_require.rb:31:in `gem_original_require'
+	from /Users/tnewton/.rvm/rubies/ruby-1.8.7-p334/lib/ruby/site_ruby/1.8/rubygems/custom_require.rb:31:in `require'
+	from /Users/tnewton/.rvm/gems/ruby-1.8.7-p334/gems/chef-0.9.14/bin/knife:23
+	from /Users/tnewton/.rvm/gems/ruby-1.8.7-p334/bin/knife:19:in `load'
+	from /Users/tnewton/.rvm/gems/ruby-1.8.7-p334/bin/knife:19
+  [WARN] Fog::AWS::Compute.new is deprecated, use Fog::Compute.new(:provider => 'AWS') instead (/Users/tnewton/.rvm/gems/ruby-1.8.7-p334/gems/fog-0.7.0/lib/fog/core/service.rb:58:in `new') 
+  [WARN] Fog::AWS::Compute.new is deprecated, use Fog::Compute.new(:provider => 'AWS') instead (/Users/tnewton/.rvm/gems/ruby-1.8.7-p334/gems/fog-0.7.0/lib/fog/core/service.rb:58:in `new') 
+  [WARN] Fog::AWS::Compute.new is deprecated, use Fog::Compute.new(:provider => 'AWS') instead (/Users/tnewton/.rvm/gems/ruby-1.8.7-p334/gems/fog-0.7.0/lib/fog/core/service.rb:58:in `new') 
+[36mInstance ID[0m: i-c417c2ab
+[36mFlavor[0m: m1.small
+[36mImage[0m: ami-2d4aa444
+[36mAvailability Zone[0m: us-east-1d
+[36mSecurity Groups[0m: default, firewall
+[36mSSH Key[0m: ec2-keypair
+
+[35mWaiting for server[0m[36mInstance ID[0m: i-dc17c2b3
+[36mFlavor[0m: m1.small
+[36mImage[0m: ami-2d4aa444
+[36mAvailability Zone[0m: us-east-1d
+[36mSecurity Groups[0m: default, firewall
+[36mSSH Key[0m: ec2-keypair
+
+[35mWaiting for server[0m[36mInstance ID[0m: i-da17c2b5
+[36mFlavor[0m: m1.small
+[36mImage[0m: ami-2d4aa444
+[36mAvailability Zone[0m: us-east-1d
+[36mSecurity Groups[0m: default, firewall
+[36mSSH Key[0m: ec2-keypair
+
+[35mWaiting for server[0m.........................................................  [WARN] Fog::AWS::Compute.new is deprecated, use Fog::Compute.new(:provider => 'AWS') instead (/Users/tnewton/.rvm/gems/ruby-1.8.7-p334/gems/fog-0.7.0/lib/fog/core/service.rb:58:in `new')   [WARN] Fog::AWS::Compute.new is deprecated, use Fog::Compute.new(:provider => 'AWS') instead (/Users/tnewton/.rvm/gems/ruby-1.8.7-p334/gems/fog-0.7.0/lib/fog/core/service.rb:58:in `new') 
+
+  [WARN] Fog::AWS::Compute.new is deprecated, use Fog::Compute.new(:provider => 'AWS') instead (/Users/tnewton/.rvm/gems/ruby-1.8.7-p334/gems/fog-0.7.0/lib/fog/core/service.rb:58:in `new') 
+[36mInstance ID[0m: i-6816c307
+[36mFlavor[0m: m1.small
+[36mImage[0m: ami-2d4aa444
+[36mAvailability Zone[0m: us-east-1d
+[36mSecurity Groups[0m: default, firewall
+[36mSSH Key[0m: ec2-keypair
+
+[35mWaiting for server[0m.[36mInstance ID[0m: i-6616c309
+[36mFlavor[0m: m1.small
+[36mImage[0m: ami-2d4aa444
+[36mAvailability Zone[0m: us-east-1c
+[36mSecurity Groups[0m: default, firewall
+[36mSSH Key[0m: ec2-keypair
+
+[35mWaiting for server[0m[36mInstance ID[0m: i-6216c30d
+[36mFlavor[0m: m1.small
+[36mImage[0m: ami-2d4aa444
+[36mAvailability Zone[0m: us-east-1c
+[36mSecurity Groups[0m: default, firewall
+[36mSSH Key[0m: ec2-keypair
+
+[35mWaiting for server[0m......
+[36mPublic DNS Name[0m: ec2-50-16-69-12.compute-1.amazonaws.com
+  [WARN] Fog::AWS::Compute::Server => #ip_address is deprecated, use #public_ip_address instead (/Users/tnewton/.rvm/gems/ruby-1.8.7-p334/gems/fog-0.7.0/lib/fog/compute/models/aws/server.rb:9)
+[36mPublic IP Address[0m: 50.16.69.12
+[36mPrivate DNS Name[0m: ip-10-118-49-195.ec2.internal
+[36mPrivate IP Address[0m: 10.118.49.195
+
+[35mWaiting for sshd[0m...................
+[36mPublic DNS Name[0m: ec2-67-202-54-27.compute-1.amazonaws.com
+  [WARN] Fog::AWS::Compute::Server => #ip_address is deprecated, use #public_ip_address instead (/Users/tnewton/.rvm/gems/ruby-1.8.7-p334/gems/fog-0.7.0/lib/fog/compute/models/aws/server.rb:9)
+[36mPublic IP Address[0m: 67.202.54.27
+[36mPrivate DNS Name[0m: ip-10-113-23-7.ec2.internal
+[36mPrivate IP Address[0m: 10.113.23.7
+
+[35mWaiting for sshd[0m..
+[36mPublic DNS Name[0m: ec2-50-17-144-112.compute-1.amazonaws.com
+  [WARN] Fog::AWS::Compute::Server => #ip_address is deprecated, use #public_ip_address instead (/Users/tnewton/.rvm/gems/ruby-1.8.7-p334/gems/fog-0.7.0/lib/fog/compute/models/aws/server.rb:9)
+[36mPublic IP Address[0m: 50.17.144.112
+[36mPrivate DNS Name[0m: ip-10-114-93-110.ec2.internal
+[36mPrivate IP Address[0m: 10.114.93.110
+
+[35mWaiting for sshd[0m..................done
+INFO: Bootstrapping Chef on [1m[0m
+..done
+INFO: Bootstrapping Chef on [1m[0m
+......done
+INFO: Bootstrapping Chef on [1m[0m
+...[36mec2-67-202-54-27.compute-1.amazonaws.com[0m 0% [Working]
+[36mec2-50-16-69-12.compute-1.amazonaws.com[0m 0% [Working]
+[36mec2-50-16-69-12.compute-1.amazonaws.com[0m             Get:1 http://us-east-1.ec2.archive.ubuntu.com lucid Release.gpg [189B]
+[36mec2-50-16-69-12.compute-1.amazonaws.com[0m             0% [1 Release.gpg 0B/189B 0%] [Connecting to security.ubuntu.com (91.189.92.166                                                                               95% [Connecting to security.ubuntu.com (91.189.92.166)]                                                       Ign http://us-east-1.ec2.archive.ubuntu.com/ubuntu/ lucid/main Translation-en_US
+[36mec2-50-16-69-12.compute-1.amazonaws.com[0m 95% [Connecting to security.ubuntu.com (91.189.92.166)]
+[36mec2-50-16-69-12.compute-1.amazonaws.com[0m                                                        Ign http://us-east-1.ec2.archive.ubuntu.com/ubuntu/ lucid/universe Translation-en_US
+[36mec2-50-16-69-12.compute-1.amazonaws.com[0m                                                        96% [Waiting for headers]                         Get:2 http://us-east-1.ec2.archive.ubuntu.com lucid-updates Release.gpg [198B]
+[36mec2-50-16-69-12.compute-1.amazonaws.com[0m                          48% [2 Release.gpg 0B/198B 0%] [Waiting for headers]                                                    98% [Waiting for headers]                         Ign http://us-east-1.ec2.archive.ubuntu.com/ubuntu/ lucid-updates/main Translation-en_US
+[36mec2-50-16-69-12.compute-1.amazonaws.com[0m 98% [Waiting for headers]                         Ign http://us-east-1.ec2.archive.ubuntu.com/ubuntu/ lucid-updates/universe Translation-en_US
+[36mec2-50-16-69-12.compute-1.amazonaws.com[0m 98% [Waiting for headers]                         Get:3 http://us-east-1.ec2.archive.ubuntu.com lucid Release [57.2kB]
+[36mec2-50-16-69-12.compute-1.amazonaws.com[0m                          0% [3 Release 0B/57.2kB 0%] [Waiting for headers]
+[36mec2-50-16-69-12.compute-1.amazonaws.com[0m                                                  99% [Waiting for headers]                         Get:4 http://us-east-1.ec2.archive.ubuntu.com lucid-updates Release [44.7kB]
+[36mec2-50-16-69-12.compute-1.amazonaws.com[0m 99% [Waiting for headers]                         99% [3 Release gpgv 57.2kB] [Waiting for headers]
+[36mec2-50-16-69-12.compute-1.amazonaws.com[0m                                                  99% [Waiting for headers]                         99% [4 Release gpgv 44.7kB] [Waiting for headers] [Waiting for headers]                                                                       Get:5 http://us-east-1.ec2.archive.ubuntu.com lucid/main Packages [1,386kB]
+[36mec2-50-16-69-12.compute-1.amazonaws.com[0m                                                                        7% [4 Release gpgv 44.7kB] [5 Packages 4,073B/1,386kB 0%] [Waiting for headers]
+[36mec2-50-16-69-12.compute-1.amazonaws.com[0m                                                                                Get:6 http://security.ubuntu.com lucid-security Release.gpg [198B]
+[36mec2-50-16-69-12.compute-1.amazonaws.com[0m                                                                                Ign http://security.ubuntu.com/ubuntu/ lucid-security/main Translation-en_US
+[36mec2-50-16-69-12.compute-1.amazonaws.com[0m                                                                                Ign http://security.ubuntu.com/ubuntu/ lucid-security/universe Translation-en_US
+[36mec2-50-16-69-12.compute-1.amazonaws.com[0m                                                                                20% [4 Release gpgv 44.7kB] [5 Packages 202kB/1,386kB 14%]
+[36mec2-50-16-69-12.compute-1.amazonaws.com[0m                                                           33% [5 Packages 397kB/1,386kB 28%] [Waiting for headers]
+[36mec2-67-202-54-27.compute-1.amazonaws.com[0m             Get:1 http://us-east-1.ec2.archive.ubuntu.com lucid Release.gpg [189B]
+[36mec2-67-202-54-27.compute-1.amazonaws.com[0m             0% [1 Release.gpg 0B/189B 0%] [Waiting for headers]                                                   95% [Waiting for headers]                         Ign http://us-east-1.ec2.archive.ubuntu.com/ubuntu/ lucid/main Translation-en_US
+[36mec2-67-202-54-27.compute-1.amazonaws.com[0m 95% [Waiting for headers]                         Ign http://us-east-1.ec2.archive.ubuntu.com/ubuntu/ lucid/universe Translation-en_US
+[36mec2-67-202-54-27.compute-1.amazonaws.com[0m 96% [Waiting for headers]                         Get:2 http://us-east-1.ec2.archive.ubuntu.com lucid-updates Release.gpg [198B]
+[36mec2-67-202-54-27.compute-1.amazonaws.com[0m                          48% [2 Release.gpg 0B/198B 0%] [Waiting for headers]                                                    98% [Waiting for headers]                         Ign http://us-east-1.ec2.archive.ubuntu.com/ubuntu/ lucid-updates/main Translation-en_US
+[36mec2-67-202-54-27.compute-1.amazonaws.com[0m 98% [Waiting for headers]                         Ign http://us-east-1.ec2.archive.ubuntu.com/ubuntu/ lucid-updates/universe Translation-en_US
+[36mec2-67-202-54-27.compute-1.amazonaws.com[0m 98% [Waiting for headers]                         Get:3 http://us-east-1.ec2.archive.ubuntu.com lucid Release [57.2kB]
+[36mec2-67-202-54-27.compute-1.amazonaws.com[0m                          0% [3 Release 0B/57.2kB 0%] [Waiting for headers]
+[36mec2-67-202-54-27.compute-1.amazonaws.com[0m                                                  99% [Waiting for headers]                         Get:4 http://us-east-1.ec2.archive.ubuntu.com lucid-updates Release [44.7kB]
+[36mec2-67-202-54-27.compute-1.amazonaws.com[0m 99% [Waiting for headers]                         99% [3 Release gpgv 57.2kB] [Waiting for headers]
+[36mec2-67-202-54-27.compute-1.amazonaws.com[0m                                                  Get:5 http://security.ubuntu.com lucid-security Release.gpg [198B]
+[36mec2-67-202-54-27.compute-1.amazonaws.com[0m                                                  Ign http://security.ubuntu.com/ubuntu/ lucid-security/main Translation-en_US
+[36mec2-67-202-54-27.compute-1.amazonaws.com[0m                                                  Ign http://security.ubuntu.com/ubuntu/ lucid-security/universe Translation-en_US
+[36mec2-67-202-54-27.compute-1.amazonaws.com[0m                                                  99% [3 Release gpgv 57.2kB]
+[36mec2-67-202-54-27.compute-1.amazonaws.com[0m                            99% [Waiting for headers]                         99% [4 Release gpgv 44.7kB] [Waiting for headers] [Waiting for headers]                                                                       Get:6 http://us-east-1.ec2.archive.ubuntu.com lucid/main Packages [1,386kB]
+[36mec2-67-202-54-27.compute-1.amazonaws.com[0m                                                                        8% [4 Release gpgv 44.7kB] [6 Packages 28.7kB/1,386kB 2%] [Waiting for headers]
+[36mec2-67-202-54-27.compute-1.amazonaws.com[0m                                                                                12% [6 Packages 83.7kB/1,386kB 6%] [Waiting for headers]
+[36mec2-50-16-69-12.compute-1.amazonaws.com[0m                                                         99% [Waiting for headers]                         99% [5 Packages bzip2 0B] [Waiting for headers] [Waiting for headers]                                                                     Get:7 http://us-east-1.ec2.archive.ubuntu.com lucid/universe Packages [5,448kB]
+[36mec2-50-16-69-12.compute-1.amazonaws.com[0m                                                                      21% [5 Packages bzip2 0B] [7 Packages 1,177B/5,448kB 0%] [Waiting for headers]
+[36mec2-50-16-69-12.compute-1.amazonaws.com[0m                                                                               Get:8 http://security.ubuntu.com lucid-security Release [44.7kB]
+[36mec2-50-16-69-12.compute-1.amazonaws.com[0m                                                                               27% [5 Packages bzip2 0B] [7 Packages 408kB/5,448kB 7%] [8 Release 6,844B/44.7k
+[36mec2-67-202-54-27.compute-1.amazonaws.com[0m                                                         99% [Waiting for headers]                         Get:7 http://security.ubuntu.com lucid-security Release [44.7kB]
+[36mec2-67-202-54-27.compute-1.amazonaws.com[0m                          97% [7 Release 6,844B/44.7kB 15%]                                 97% [6 Packages bzip2 0B] [Waiting for headers] [7 Release 6,844B/44.7kB 15%]                                                                             Get:8 http://us-east-1.ec2.archive.ubuntu.com lucid/universe Packages [5,448kB]
+[36mec2-67-202-54-27.compute-1.amazonaws.com[0m                                                                              22% [6 Packages bzip2 0B] [8 Packages 72.1kB/5,448kB 1%] [7 Release 6,844B/44.7
+.[36mec2-50-16-69-12.compute-1.amazonaws.com[0m                                                                                69% [5 Packages bzip2 827kB] [7 Packages 3,292kB/5,448kB 60%]                                                             69% [5 Packages bzip2 827kB] [8 Release gpgv 44.7kB] [7 Packages 3,292kB/5,448k
+[36mec2-67-202-54-27.compute-1.amazonaws.com[0m                                                                                54% [6 Packages bzip2 328kB] [8 Packages 2,298kB/5,448kB 42%]                                                             54% [6 Packages bzip2 328kB] [7 Release gpgv 44.7kB] [8 Packages 2,298kB/5,448k
+[36mec2-67-202-54-27.compute-1.amazonaws.com[0m                                                                                59% [6 Packages bzip2 401kB] [8 Packages 2,626kB/5,448kB 48%]
+[36mec2-50-16-69-12.compute-1.amazonaws.com[0m                                                                                74% [5 Packages bzip2 893kB] [7 Packages 3,685kB/5,448kB 67%]
+[36mec2-50-16-69-12.compute-1.amazonaws.com[0m                                                              Get:9 http://security.ubuntu.com lucid-security/main Packages [160kB]
+[36mec2-50-16-69-12.compute-1.amazonaws.com[0m                                                              79% [5 Packages bzip2 897kB] [7 Packages 4,144kB/5,448kB 76%] [9 Packages 30.0k
+[36mec2-67-202-54-27.compute-1.amazonaws.com[0m                                                              Get:9 http://security.ubuntu.com lucid-security/main Packages [160kB]
+[36mec2-67-202-54-27.compute-1.amazonaws.com[0m                                                              67% [6 Packages bzip2 565kB] [8 Packages 3,281kB/5,448kB 60%] [9 Packages 30.0k
+[36mec2-50-16-69-12.compute-1.amazonaws.com[0m                                                                                98% [5 Packages bzip2 1,606kB] [9 Packages 61.9kB/160kB 38%]                                                            Get:10 http://us-east-1.ec2.archive.ubuntu.com lucid/main Sources [659kB]
+[36mec2-50-16-69-12.compute-1.amazonaws.com[0m                                                             90% [5 Packages bzip2 1,614kB] [10 Sources 0B/659kB 0%] [9 Packages 61.9kB/160k
+[36mec2-50-16-69-12.compute-1.amazonaws.com[0m                                                                                98% [5 Packages bzip2 1,720kB] [9 Packages 61.9kB/160kB 38%]
+[36mec2-50-16-69-12.compute-1.amazonaws.com[0m                                                             Get:11 http://us-east-1.ec2.archive.ubuntu.com lucid/universe Sources [3,165kB]
+[36mec2-50-16-69-12.compute-1.amazonaws.com[0m                                                             70% [5 Packages bzip2 1,794kB] [11 Sources 0B/3,165kB 0%] [9 Packages 85.0kB/16
+[36mec2-67-202-54-27.compute-1.amazonaws.com[0m                                                                                99% [6 Packages bzip2 1,196kB] [9 Packages 96.6kB/160kB 60%]                                                            Get:10 http://us-east-1.ec2.archive.ubuntu.com lucid/main Sources [659kB]
+[36mec2-67-202-54-27.compute-1.amazonaws.com[0m                                                             90% [6 Packages bzip2 1,229kB] [10 Sources 0B/659kB 0%] [9 Packages 96.6kB/160k
+[36mec2-67-202-54-27.compute-1.amazonaws.com[0m                                                                                99% [6 Packages bzip2 1,442kB] [9 Packages 128kB/160kB 80%]
+[36mec2-67-202-54-27.compute-1.amazonaws.com[0m                                                            Get:11 http://us-east-1.ec2.archive.ubuntu.com lucid/universe Sources [3,165kB]
+[36mec2-67-202-54-27.compute-1.amazonaws.com[0m                                                            70% [6 Packages bzip2 1,483kB] [11 Sources 0B/3,165kB 0%] [9 Packages 128kB/160
+[36mec2-67-202-54-27.compute-1.amazonaws.com[0m                                                                                74% [6 Packages bzip2 1,556kB] [11 Sources 328kB/3,165kB 10%]
+.[36mec2-67-202-54-27.compute-1.amazonaws.com[0m                                                              Get:12 http://security.ubuntu.com lucid-security/universe Packages [65.6kB]
+[36mec2-67-202-54-27.compute-1.amazonaws.com[0m                                                              83% [6 Packages bzip2 1,794kB] [11 Sources 1,376kB/3,165kB 43%] [12 Packages 40
+[36mec2-50-16-69-12.compute-1.amazonaws.com[0m                                                                                98% [5 Packages bzip2 2,847kB] [11 Sources 2,949kB/3,165kB 93%]
+[36mec2-50-16-69-12.compute-1.amazonaws.com[0m                                                                99% [5 Packages bzip2 2,990kB] [Waiting for headers]
+[36mec2-50-16-69-12.compute-1.amazonaws.com[0m                                                     Get:12 http://us-east-1.ec2.archive.ubuntu.com lucid-updates/main Packages [460kB]
+[36mec2-50-16-69-12.compute-1.amazonaws.com[0m                                                     95% [5 Packages bzip2 3,138kB] [12 Packages 0B/460kB 0%] [Waiting for headers]
+[36mec2-67-202-54-27.compute-1.amazonaws.com[0m                                                                                Get:13 http://security.ubuntu.com lucid-security/main Sources [48.4kB]
+[36mec2-67-202-54-27.compute-1.amazonaws.com[0m 90% [6 Packages bzip2 2,179kB] [11 Sources 2,126kB/3,165kB 67%] [13 Sources 30.
+[36mec2-50-16-69-12.compute-1.amazonaws.com[0m                                                                               99% [5 Packages bzip2 3,387kB] [Waiting for headers]
+[36mec2-50-16-69-12.compute-1.amazonaws.com[0m                                                     Get:13 http://security.ubuntu.com lucid-security/universe Packages [65.6kB]
+[36mec2-50-16-69-12.compute-1.amazonaws.com[0m                                                     99% [5 Packages bzip2 3,408kB] [13 Packages 31.4kB/65.6kB 47%]                                                              Get:14 http://us-east-1.ec2.archive.ubuntu.com lucid-updates/universe Packages [191kB]
+[36mec2-50-16-69-12.compute-1.amazonaws.com[0m                                                               98% [5 Packages bzip2 3,432kB] [14 Packages 0B/191kB 0%] [13 Packages 31.4kB/65                                                                               99% [5 Packages bzip2 3,432kB] [13 Packages 31.4kB/65.6kB 47%]
+[36mec2-67-202-54-27.compute-1.amazonaws.com[0m                                                                                Get:14 http://security.ubuntu.com lucid-security/universe Sources [19.8kB]
+[36mec2-67-202-54-27.compute-1.amazonaws.com[0m                                                                                95% [6 Packages bzip2 2,294kB] [11 Sources 2,687kB/3,165kB 84%]
+[36mec2-50-16-69-12.compute-1.amazonaws.com[0m                                                               Get:15 http://us-east-1.ec2.archive.ubuntu.com lucid-updates/main Sources [182kB]
+[36mec2-50-16-69-12.compute-1.amazonaws.com[0m                                                               98% [5 Packages bzip2 3,539kB] [15 Sources 0B/182kB 0%] [13 Packages 31.4kB/65.
+[36mec2-50-16-69-12.compute-1.amazonaws.com[0m                                                                                99% [5 Packages bzip2 3,592kB] [13 Packages 31.4kB/65.6kB 47%]                                                              Get:16 http://us-east-1.ec2.archive.ubuntu.com lucid-updates/universe Sources [70.1kB]
+[36mec2-50-16-69-12.compute-1.amazonaws.com[0m                                                               99% [5 Packages bzip2 3,592kB] [16 Sources 0B/70.1kB 0%] [13 Packages 31.4kB/65                                                                               99% [5 Packages bzip2 3,592kB] [13 Packages 31.4kB/65.6kB 47%]
+[36mec2-67-202-54-27.compute-1.amazonaws.com[0m                                                                99% [6 Packages bzip2 2,691kB]                              Get:15 http://us-east-1.ec2.archive.ubuntu.com lucid-updates/main Packages [460kB]
+[36mec2-67-202-54-27.compute-1.amazonaws.com[0m                               96% [6 Packages bzip2 2,691kB] [15 Packages 0B/460kB 0%]
+[36mec2-67-202-54-27.compute-1.amazonaws.com[0m                                                         99% [6 Packages bzip2 2,691kB]
+[36mec2-67-202-54-27.compute-1.amazonaws.com[0m                               Get:16 http://us-east-1.ec2.archive.ubuntu.com lucid-updates/universe Packages [191kB]
+[36mec2-67-202-54-27.compute-1.amazonaws.com[0m                               98% [6 Packages bzip2 2,691kB] [16 Packages 0B/191kB 0%]                                                        99% [6 Packages bzip2 2,691kB]
+[36mec2-67-202-54-27.compute-1.amazonaws.com[0m                               Get:17 http://us-east-1.ec2.archive.ubuntu.com lucid-updates/main Sources [182kB]
+[36mec2-67-202-54-27.compute-1.amazonaws.com[0m                               98% [6 Packages bzip2 2,695kB] [17 Sources 0B/182kB 0%]                                                       99% [6 Packages bzip2 2,695kB]
+[36mec2-67-202-54-27.compute-1.amazonaws.com[0m                               Get:18 http://us-east-1.ec2.archive.ubuntu.com lucid-updates/universe Sources [70.1kB]
+[36mec2-67-202-54-27.compute-1.amazonaws.com[0m                               99% [6 Packages bzip2 2,777kB] [18 Sources 0B/70.1kB 0%]                                                        99% [6 Packages bzip2 2,781kB]
+.[36mec2-50-16-69-12.compute-1.amazonaws.com[0m                                                               Get:17 http://security.ubuntu.com lucid-security/main Sources [48.4kB]
+[36mec2-50-16-69-12.compute-1.amazonaws.com[0m                                                               99% [5 Packages bzip2 4,493kB] [17 Sources 13.2kB/48.4kB 27%]
+[36mec2-50-16-69-12.compute-1.amazonaws.com[0m                                                              Get:18 http://security.ubuntu.com lucid-security/universe Sources [19.8kB]
+[36mec2-50-16-69-12.compute-1.amazonaws.com[0m                                                              99% [5 Packages bzip2 5,755kB]
+[36mec2-67-202-54-27.compute-1.amazonaws.com[0m 99% [6 Packages bzip2 4,923kB]
+.[36mec2-67-202-54-27.compute-1.amazonaws.com[0m 99% [6 Packages bzip2 7,193kB]
+[36mec2-50-16-69-12.compute-1.amazonaws.com[0m 99% [5 Packages bzip2 8,499kB]
+[36mec2-50-16-69-12.compute-1.amazonaws.com[0m                               99% [Working]             99% [7 Packages bzip2 0B]
+[36mec2-50-16-69-12.compute-1.amazonaws.com[0m                          99% [7 Packages bzip2 1,901kB]
+[36mec2-67-202-54-27.compute-1.amazonaws.com[0m                               99% [Working]             99% [8 Packages bzip2 0B]
+.[36mec2-67-202-54-27.compute-1.amazonaws.com[0m                          99% [8 Packages bzip2 1,364kB]
+.[36mec2-50-17-144-112.compute-1.amazonaws.com[0m 0% [Working]
+[36mec2-50-16-69-12.compute-1.amazonaws.com[0m 99% [7 Packages bzip2 4,133kB]
+.[36mec2-50-17-144-112.compute-1.amazonaws.com[0m             Get:1 http://us-east-1.ec2.archive.ubuntu.com lucid Release.gpg [189B]
+[36mec2-50-17-144-112.compute-1.amazonaws.com[0m             Ign http://us-east-1.ec2.archive.ubuntu.com/ubuntu/ lucid/main Translation-en_US
+[36mec2-50-17-144-112.compute-1.amazonaws.com[0m             95% [Waiting for headers] [Waiting for headers]                                               Ign http://us-east-1.ec2.archive.ubuntu.com/ubuntu/ lucid/universe Translation-en_US
+[36mec2-50-17-144-112.compute-1.amazonaws.com[0m                                                Get:2 http://us-east-1.ec2.archive.ubuntu.com lucid-updates Release.gpg [198B]
+[36mec2-50-17-144-112.compute-1.amazonaws.com[0m                                                Ign http://us-east-1.ec2.archive.ubuntu.com/ubuntu/ lucid-updates/main Translation-en_US
+[36mec2-50-17-144-112.compute-1.amazonaws.com[0m                                                Ign http://us-east-1.ec2.archive.ubuntu.com/ubuntu/ lucid-updates/universe Translation-en_US
+[36mec2-50-17-144-112.compute-1.amazonaws.com[0m 98% [Waiting for headers] [Waiting for headers]
+[36mec2-50-17-144-112.compute-1.amazonaws.com[0m                                                Get:3 http://us-east-1.ec2.archive.ubuntu.com lucid Release [57.2kB]
+[36mec2-50-17-144-112.compute-1.amazonaws.com[0m                                                12% [3 Release 6,980B/57.2kB 12%] [Waiting for headers]
+[36mec2-50-17-144-112.compute-1.amazonaws.com[0m                                                        99% [Waiting for headers]                         Get:4 http://us-east-1.ec2.archive.ubuntu.com lucid-updates Release [44.7kB]
+[36mec2-50-17-144-112.compute-1.amazonaws.com[0m 99% [Waiting for headers]                         99% [3 Release gpgv 57.2kB] [Waiting for headers]
+[36mec2-50-17-144-112.compute-1.amazonaws.com[0m                                                  99% [Waiting for headers]                         99% [4 Release gpgv 44.7kB] [Waiting for headers] [Waiting for headers]                                                                       Get:5 http://us-east-1.ec2.archive.ubuntu.com lucid/main Packages [1,386kB]
+[36mec2-50-17-144-112.compute-1.amazonaws.com[0m                                                                        34% [4 Release gpgv 44.7kB] [5 Packages 418kB/1,386kB 30%] [Waiting for headers
+[36mec2-50-17-144-112.compute-1.amazonaws.com[0m                                                                                34% [5 Packages 418kB/1,386kB 30%] [Waiting for headers]
+[36mec2-50-17-144-112.compute-1.amazonaws.com[0m                                                         Get:6 http://security.ubuntu.com lucid-security Release.gpg [198B]
+[36mec2-50-17-144-112.compute-1.amazonaws.com[0m                                                         Ign http://security.ubuntu.com/ubuntu/ lucid-security/main Translation-en_US
+[36mec2-50-17-144-112.compute-1.amazonaws.com[0m                                                         Ign http://security.ubuntu.com/ubuntu/ lucid-security/universe Translation-en_US
+[36mec2-50-17-144-112.compute-1.amazonaws.com[0m                                                         48% [5 Packages 615kB/1,386kB 44%]
+[36mec2-50-16-69-12.compute-1.amazonaws.com[0m 99% [7 Packages bzip2 6,623kB]
+[36mec2-67-202-54-27.compute-1.amazonaws.com[0m 99% [8 Packages bzip2 3,400kB]
+[36mec2-50-17-144-112.compute-1.amazonaws.com[0m                                   99% [Waiting for headers]                         99% [5 Packages bzip2 0B] [Waiting for headers] [Waiting for headers]                                                                     Get:7 http://us-east-1.ec2.archive.ubuntu.com lucid/universe Packages [5,448kB]
+[36mec2-50-17-144-112.compute-1.amazonaws.com[0m                                                                      21% [5 Packages bzip2 0B] [7 Packages 4,073B/5,448kB 0%] [Waiting for headers]
+[36mec2-50-17-144-112.compute-1.amazonaws.com[0m                                                                               Get:8 http://security.ubuntu.com lucid-security Release [44.7kB]
+[36mec2-50-17-144-112.compute-1.amazonaws.com[0m                                                                               25% [5 Packages bzip2 0B] [7 Packages 277kB/5,448kB 5%] [8 Release 6,844B/44.7k
+[36mec2-50-17-144-112.compute-1.amazonaws.com[0m                                                                                61% [5 Packages bzip2 406kB] [7 Packages 2,767kB/5,448kB 50%]                                                             61% [5 Packages bzip2 406kB] [8 Release gpgv 44.7kB] [7 Packages 2,767kB/5,448k
+[36mec2-50-17-144-112.compute-1.amazonaws.com[0m                                                                                65% [5 Packages bzip2 504kB] [7 Packages 3,030kB/5,448kB 55%]
+[36mec2-67-202-54-27.compute-1.amazonaws.com[0m 99% [8 Packages bzip2 5,399kB]
+[36mec2-50-17-144-112.compute-1.amazonaws.com[0m                                                              Get:9 http://security.ubuntu.com lucid-security/main Packages [160kB]
+[36mec2-50-17-144-112.compute-1.amazonaws.com[0m                                                              72% [5 Packages bzip2 786kB] [7 Packages 3,619kB/5,448kB 66%] [9 Packages 30.0k
+[36mec2-50-16-69-12.compute-1.amazonaws.com[0m 99% [7 Packages bzip2 8,897kB]
+[36mec2-50-17-144-112.compute-1.amazonaws.com[0m                                                                                99% [5 Packages bzip2 1,303kB] [9 Packages 95.2kB/160kB 59%]
+[36mec2-50-17-144-112.compute-1.amazonaws.com[0m                                                             Get:10 http://us-east-1.ec2.archive.ubuntu.com lucid/main Sources [659kB]
+[36mec2-50-17-144-112.compute-1.amazonaws.com[0m                                                             90% [5 Packages bzip2 1,421kB] [10 Sources 0B/659kB 0%] [9 Packages 95.2kB/160k
+[36mec2-50-17-144-112.compute-1.amazonaws.com[0m                                                                                99% [5 Packages bzip2 1,794kB] [9 Packages 127kB/160kB 79%]                                                           Get:11 http://us-east-1.ec2.archive.ubuntu.com lucid/universe Sources [3,165kB]
+[36mec2-50-17-144-112.compute-1.amazonaws.com[0m                                                            70% [5 Packages bzip2 1,794kB] [11 Sources 0B/3,165kB 0%] [9 Packages 127kB/160
+[36mec2-50-17-144-112.compute-1.amazonaws.com[0m                                                                                78% [5 Packages bzip2 1,909kB] [11 Sources 786kB/3,165kB 24%]
+[36mec2-67-202-54-27.compute-1.amazonaws.com[0m 99% [8 Packages bzip2 7,094kB]
+[36mec2-50-16-69-12.compute-1.amazonaws.com[0m                               99% [7 Packages bzip2 11.6MB]
+[36mec2-50-17-144-112.compute-1.amazonaws.com[0m                                                              Get:12 http://security.ubuntu.com lucid-security/universe Packages [65.6kB]
+[36mec2-50-17-144-112.compute-1.amazonaws.com[0m                                                              87% [5 Packages bzip2 2,429kB] [11 Sources 1,835kB/3,165kB 57%] [12 Packages 45
+[36mec2-50-17-144-112.compute-1.amazonaws.com[0m                                                                                Get:13 http://security.ubuntu.com lucid-security/main Sources [48.4kB]
+[36mec2-50-17-144-112.compute-1.amazonaws.com[0m 94% [5 Packages bzip2 2,691kB] [11 Sources 2,621kB/3,165kB 82%] [13 Sources 27.
+[36mec2-50-17-144-112.compute-1.amazonaws.com[0m                                                                                99% [5 Packages bzip2 2,826kB] [13 Sources 27.7kB/48.4kB 57%]
+[36mec2-50-17-144-112.compute-1.amazonaws.com[0m                                                              Get:14 http://us-east-1.ec2.archive.ubuntu.com lucid-updates/main Packages [460kB]
+[36mec2-50-17-144-112.compute-1.amazonaws.com[0m                                                              95% [5 Packages bzip2 3,019kB] [14 Packages 0B/460kB 0%] [13 Sources 27.7kB/48.
+.[36mec2-50-17-144-112.compute-1.amazonaws.com[0m                                                                                Get:15 http://security.ubuntu.com lucid-security/universe Sources [19.8kB]
+[36mec2-50-17-144-112.compute-1.amazonaws.com[0m                                                                                99% [5 Packages bzip2 3,203kB] [14 Packages 401kB/460kB 87%]                                                            99% [5 Packages bzip2 3,232kB]                              Get:16 http://us-east-1.ec2.archive.ubuntu.com lucid-updates/universe Packages [191kB]
+[36mec2-50-17-144-112.compute-1.amazonaws.com[0m                               98% [5 Packages bzip2 3,269kB] [16 Packages 0B/191kB 0%]
+[36mec2-50-17-144-112.compute-1.amazonaws.com[0m                                                         99% [5 Packages bzip2 3,314kB]
+[36mec2-50-17-144-112.compute-1.amazonaws.com[0m                               Get:17 http://us-east-1.ec2.archive.ubuntu.com lucid-updates/main Sources [182kB]
+[36mec2-50-17-144-112.compute-1.amazonaws.com[0m                               98% [5 Packages bzip2 3,359kB] [17 Sources 0B/182kB 0%]                                                       99% [5 Packages bzip2 3,363kB]
+[36mec2-50-17-144-112.compute-1.amazonaws.com[0m                               Get:18 http://us-east-1.ec2.archive.ubuntu.com lucid-updates/universe Sources [70.1kB]
+[36mec2-50-17-144-112.compute-1.amazonaws.com[0m                               99% [5 Packages bzip2 3,453kB] [18 Sources 0B/70.1kB 0%]                                                        99% [5 Packages bzip2 3,457kB]
+[36mec2-67-202-54-27.compute-1.amazonaws.com[0m 99% [8 Packages bzip2 9,064kB]
+[36mec2-50-16-69-12.compute-1.amazonaws.com[0m                              99% [7 Packages bzip2 14.2MB]                                      1,990kB/s 0s
+[36mec2-67-202-54-27.compute-1.amazonaws.com[0m                               99% [8 Packages bzip2 11.7MB]                                      1,885kB/s 0s
+[36mec2-50-16-69-12.compute-1.amazonaws.com[0m 99% [7 Packages bzip2 16.9MB]                                      1,990kB/s 0s
+[36mec2-50-17-144-112.compute-1.amazonaws.com[0m 99% [5 Packages bzip2 6,185kB]
+[36mec2-50-17-144-112.compute-1.amazonaws.com[0m                               99% [Working]             99% [7 Packages bzip2 0B]
+[36mec2-67-202-54-27.compute-1.amazonaws.com[0m 99% [8 Packages bzip2 13.8MB]                                      1,885kB/s 0s
+[36mec2-50-16-69-12.compute-1.amazonaws.com[0m 99% [7 Packages bzip2 19.4MB]                                      1,990kB/s 0s
+.[36mec2-50-17-144-112.compute-1.amazonaws.com[0m                          99% [7 Packages bzip2 1,794kB]
+[36mec2-67-202-54-27.compute-1.amazonaws.com[0m 99% [8 Packages bzip2 16.0MB]                                      1,885kB/s 0s
+[36mec2-50-16-69-12.compute-1.amazonaws.com[0m 99% [7 Packages bzip2 21.7MB]                                      1,990kB/s 0s
+.[36mec2-50-17-144-112.compute-1.amazonaws.com[0m 99% [7 Packages bzip2 4,153kB]
+[36mec2-50-16-69-12.compute-1.amazonaws.com[0m 99% [7 Packages bzip2 24.0MB]                                      1,990kB/s 0s
+[36mec2-67-202-54-27.compute-1.amazonaws.com[0m 99% [8 Packages bzip2 18.0MB]                                      1,885kB/s 0s
+[36mec2-50-17-144-112.compute-1.amazonaws.com[0m 99% [7 Packages bzip2 6,648kB]
+[36mec2-67-202-54-27.compute-1.amazonaws.com[0m 99% [8 Packages bzip2 20.2MB]                                      1,885kB/s 0s
+..[36mec2-50-16-69-12.compute-1.amazonaws.com[0m 99% [7 Packages bzip2 26.7MB]                                      1,990kB/s 0s
+[36mec2-50-16-69-12.compute-1.amazonaws.com[0m 99% [Working]                                                      1,990kB/s 0s
+[36mec2-50-16-69-12.compute-1.amazonaws.com[0m 99% [10 Sources bzip2 0B]                                          1,990kB/s 0s
+[36mec2-50-17-144-112.compute-1.amazonaws.com[0m 99% [7 Packages bzip2 9,036kB]
+[36mec2-67-202-54-27.compute-1.amazonaws.com[0m 99% [8 Packages bzip2 22.5MB]                                      1,885kB/s 0s
+[36mec2-50-16-69-12.compute-1.amazonaws.com[0m 99% [10 Sources bzip2 2,527kB]                                     1,990kB/s 0s
+[36mec2-50-16-69-12.compute-1.amazonaws.com[0m 99% [Working]                                                      1,990kB/s 0s99% [9 Packages bzip2 0B]                                          1,990kB/s 0s
+[36mec2-50-17-144-112.compute-1.amazonaws.com[0m                               99% [7 Packages bzip2 11.7MB]
+.
+[36mPublic DNS Name[0m: ec2-204-236-200-163.compute-1.amazonaws.com
+  [WARN] Fog::AWS::Compute::Server => #ip_address is deprecated, use #public_ip_address instead (/Users/tnewton/.rvm/gems/ruby-1.8.7-p334/gems/fog-0.7.0/lib/fog/compute/models/aws/server.rb:9)
+[36mPublic IP Address[0m: 204.236.200.163
+[36mPrivate DNS Name[0m: domU-12-31-39-09-E2-71.compute-1.internal
+[36mPrivate IP Address[0m: 10.210.229.123
+
+[35mWaiting for sshd[0m[36mec2-50-16-69-12.compute-1.amazonaws.com[0m 99% [Working]                                                      1,990kB/s 0s99% [11 Sources bzip2 0B]                                          1,990kB/s 0s
+[36mec2-67-202-54-27.compute-1.amazonaws.com[0m 99% [8 Packages bzip2 24.4MB]                                      1,885kB/s 0s
+..[36mec2-50-17-144-112.compute-1.amazonaws.com[0m                              99% [7 Packages bzip2 14.4MB]                                      1,967kB/s 0s
+[36mec2-50-16-69-12.compute-1.amazonaws.com[0m 99% [11 Sources bzip2 1,794kB]                                     1,990kB/s 0s
+[36mec2-67-202-54-27.compute-1.amazonaws.com[0m 99% [Working]                                                      1,885kB/s 0s99% [10 Sources bzip2 0B]                                          1,885kB/s 0s
+[36mec2-50-17-144-112.compute-1.amazonaws.com[0m 99% [7 Packages bzip2 17.1MB]                                      1,967kB/s 0s
+[36mec2-67-202-54-27.compute-1.amazonaws.com[0m 99% [10 Sources bzip2 1,798kB]                                     1,885kB/s 0s
+[36mec2-50-16-69-12.compute-1.amazonaws.com[0m 99% [11 Sources bzip2 4,293kB]                                     1,990kB/s 0s
+[36mec2-67-202-54-27.compute-1.amazonaws.com[0m 99% [Working]                                                      1,885kB/s 0s99% [9 Packages bzip2 0B]                                          1,885kB/s 0s
+[36mec2-67-202-54-27.compute-1.amazonaws.com[0m 99% [Working]                                                      1,885kB/s 0s99% [12 Packages bzip2 0B]                                         1,885kB/s 0s
+[36mec2-50-17-144-112.compute-1.amazonaws.com[0m 99% [7 Packages bzip2 19.7MB]                                      1,967kB/s 0s
+[36mec2-67-202-54-27.compute-1.amazonaws.com[0m 99% [Working]                                                      1,885kB/s 0s99% [13 Sources bzip2 0B]                                          1,885kB/s 0s
+[36mec2-50-16-69-12.compute-1.amazonaws.com[0m 99% [11 Sources bzip2 7,012kB]                                     1,990kB/s 0s
+[36mec2-67-202-54-27.compute-1.amazonaws.com[0m 99% [Working]                                                      1,885kB/s 0s99% [14 Sources bzip2 0B]                                          1,885kB/s 0s99% [Working]                                                      1,885kB/s 0s99% [11 Sources bzip2 0B]                                          1,885kB/s 0s
+..[36mec2-50-17-144-112.compute-1.amazonaws.com[0m 99% [7 Packages bzip2 21.7MB]                                      1,967kB/s 0s
+[36mec2-50-16-69-12.compute-1.amazonaws.com[0m 99% [11 Sources bzip2 9,556kB]                                     1,990kB/s 0s
+[36mec2-50-17-144-112.compute-1.amazonaws.com[0m[36mec2-67-202-54-27.compute-1.amazonaws.com[0m 99% [7 Packages bzip2 24.3MB]                                      1,967kB/s 0s 
+99% [11 Sources bzip2 1,905kB]                                     1,885kB/s 0s
+[36mec2-50-16-69-12.compute-1.amazonaws.com[0m                                                                                99% [11 Sources bzip2 11.8MB]
+[36mec2-67-202-54-27.compute-1.amazonaws.com[0m                                                                                99% [11 Sources bzip2 4,301kB]
+.[36mec2-50-17-144-112.compute-1.amazonaws.com[0m 99% [7 Packages bzip2 26.5MB]                                      1,967kB/s 0s
+[36mec2-50-16-69-12.compute-1.amazonaws.com[0m                              99% [Working]             99% [12 Packages bzip2 0B]
+.[36mec2-50-17-144-112.compute-1.amazonaws.com[0m 99% [Working]                                                      1,967kB/s 0s99% [10 Sources bzip2 0B]                                          1,967kB/s 0s
+[36mec2-67-202-54-27.compute-1.amazonaws.com[0m 99% [11 Sources bzip2 6,631kB]
+[36mec2-50-17-144-112.compute-1.amazonaws.com[0m 99% [10 Sources bzip2 2,281kB]                                     1,967kB/s 0s
+[36mec2-50-17-144-112.compute-1.amazonaws.com[0m 99% [Working]                                                      1,967kB/s 0s99% [9 Packages bzip2 0B]                                          1,967kB/s 0s
+[36mec2-67-202-54-27.compute-1.amazonaws.com[0m 99% [11 Sources bzip2 8,995kB]
+[36mec2-50-17-144-112.compute-1.amazonaws.com[0m 99% [Working]                                                      1,967kB/s 0s99% [12 Packages bzip2 0B]                                         1,967kB/s 0s
+[36mec2-50-17-144-112.compute-1.amazonaws.com[0m 99% [Working]                                                      1,967kB/s 0s99% [11 Sources bzip2 0B]                                          1,967kB/s 0s
+[36mec2-50-16-69-12.compute-1.amazonaws.com[0m                           99% [12 Packages bzip2 2,556kB]
+[36mec2-50-16-69-12.compute-1.amazonaws.com[0m                                99% [Working]             99% [14 Packages bzip2 0B]
+[36mec2-50-16-69-12.compute-1.amazonaws.com[0m                           99% [Working]             99% [15 Sources bzip2 0B]
+[36mec2-50-16-69-12.compute-1.amazonaws.com[0m                          99% [Working]             99% [16 Sources bzip2 0B]
+[36mec2-50-16-69-12.compute-1.amazonaws.com[0m                          99% [Working]             99% [13 Packages bzip2 0B]
+[36mec2-50-16-69-12.compute-1.amazonaws.com[0m                           99% [Working]             99% [17 Sources bzip2 0B]
+[36mec2-67-202-54-27.compute-1.amazonaws.com[0m                               99% [11 Sources bzip2 11.0MB]
+[36mec2-50-16-69-12.compute-1.amazonaws.com[0m                          99% [Working]             99% [18 Sources bzip2 0B]
+[36mec2-50-16-69-12.compute-1.amazonaws.com[0m                          100% [Working]              Fetched 12.0MB in 14s (842kB/s)
+.[36mec2-50-16-69-12.compute-1.amazonaws.com[0m Reading package lists... 0%Reading package lists... 0%
+[36mec2-50-16-69-12.compute-1.amazonaws.com[0m Reading package lists... 1%
+.[36mec2-50-17-144-112.compute-1.amazonaws.com[0m 99% [11 Sources bzip2 1,794kB]                                     1,967kB/s 0s
+[36mec2-50-16-69-12.compute-1.amazonaws.com[0m Reading package lists... 20%Reading package lists... 20%
+[36mec2-67-202-54-27.compute-1.amazonaws.com[0m 99% [11 Sources bzip2 13.0MB]
+[36mec2-67-202-54-27.compute-1.amazonaws.com[0m                              99% [Working]             99% [15 Packages bzip2 0B]
+[36mec2-50-17-144-112.compute-1.amazonaws.com[0m 99% [11 Sources bzip2 4,444kB]                                     1,967kB/s 0s
+[36mec2-50-16-69-12.compute-1.amazonaws.com[0m Reading package lists... 38%
+[36mec2-67-202-54-27.compute-1.amazonaws.com[0m                           99% [15 Packages bzip2 1,794kB]
+[36mec2-50-17-144-112.compute-1.amazonaws.com[0m 99% [11 Sources bzip2 6,369kB]                                     1,967kB/s 0s
+[36mec2-67-202-54-27.compute-1.amazonaws.com[0m                                99% [Working]             99% [16 Packages bzip2 0B]
+[36mec2-50-16-69-12.compute-1.amazonaws.com[0m Reading package lists... 75%
+[36mec2-67-202-54-27.compute-1.amazonaws.com[0m                           99% [Working]             99% [17 Sources bzip2 0B]
+[36mec2-50-17-144-112.compute-1.amazonaws.com[0m 99% [11 Sources bzip2 8,995kB]                                     1,967kB/s 0s
+[36mec2-50-16-69-12.compute-1.amazonaws.com[0m Reading package lists... 85%Reading package lists... 85%
+[36mec2-67-202-54-27.compute-1.amazonaws.com[0m                          99% [Working]             99% [18 Sources bzip2 0B]
+[36mec2-67-202-54-27.compute-1.amazonaws.com[0m                          100% [Working]              Fetched 12.0MB in 16s (746kB/s)
+[36mec2-67-202-54-27.compute-1.amazonaws.com[0m Reading package lists... 0%
+[36mec2-67-202-54-27.compute-1.amazonaws.com[0m Reading package lists... 0%
+[36mec2-50-16-69-12.compute-1.amazonaws.com[0m Reading package lists... 93%Reading package lists... 93%
+[36mec2-50-16-69-12.compute-1.amazonaws.com[0m Reading package lists... 95%Reading package lists... 95%
+[36mec2-50-16-69-12.compute-1.amazonaws.com[0m Reading package lists... 98%Reading package lists... 98%
+[36mec2-50-16-69-12.compute-1.amazonaws.com[0m Reading package lists... 99%Reading package lists... 99%
+[36mec2-50-17-144-112.compute-1.amazonaws.com[0m                                                                                99% [11 Sources bzip2 11.7MB]
+[36mec2-50-16-69-12.compute-1.amazonaws.com[0m Reading package lists... Done
+[36mec2-50-16-69-12.compute-1.amazonaws.com[0m Reading package lists... 0%Reading package lists... 100%Reading package lists... Done
+[36mec2-50-16-69-12.compute-1.amazonaws.com[0m Building dependency tree... 0%Building dependency tree... 0%
+[36mec2-50-16-69-12.compute-1.amazonaws.com[0m Building dependency tree... 50%Building dependency tree... 50%
+[36mec2-67-202-54-27.compute-1.amazonaws.com[0m Reading package lists... 1%
+[36mec2-67-202-54-27.compute-1.amazonaws.com[0m Reading package lists... 20%Reading package lists... 20%
+[36mec2-50-16-69-12.compute-1.amazonaws.com[0m Building dependency tree       [36mec2-67-202-54-27.compute-1.amazonaws.com[0m
+ Reading package lists... 37%
+[36mec2-50-16-69-12.compute-1.amazonaws.com[0m Reading state information... 0%Reading state information... 1%Reading state information... Done
+[36mec2-50-16-69-12.compute-1.amazonaws.com[0m The following extra packages will be installed:
+[36mec2-50-16-69-12.compute-1.amazonaws.com[0m   binutils dpkg-dev fakeroot g++ g++-4.4 gcc gcc-4.4 irb1.8
+[36mec2-50-16-69-12.compute-1.amazonaws.com[0m   libbreakpoint-ruby1.8 libc-bin libc-dev-bin libc6 libc6-dev libc6-i686
+[36mec2-50-16-69-12.compute-1.amazonaws.com[0m   libc6-xen libcmdparse2-ruby1.8 libdaemons-ruby1.8 libgomp1 liblog4r-ruby1.8
+[36mec2-50-16-69-12.compute-1.amazonaws.com[0m   liblzma1 libmmap-ruby1.8 libncurses-ruby1.8 libopenssl-ruby1.8
+[36mec2-50-16-69-12.compute-1.amazonaws.com[0m   libreadline-ruby1.8 libreadline5 libruby1.8 libstdc++6-4.4-dev
+[36mec2-50-16-69-12.compute-1.amazonaws.com[0m   linux-libc-dev manpages-dev rdoc1.8 ruby1.8 rubygems1.8 xz-utils
+[36mec2-50-16-69-12.compute-1.amazonaws.com[0m Suggested packages:
+[36mec2-50-16-69-12.compute-1.amazonaws.com[0m   binutils-doc debian-keyring debian-maintainers g++-multilib g++-4.4-multilib
+[36mec2-50-16-69-12.compute-1.amazonaws.com[0m   gcc-4.4-doc libstdc++6-4.4-dbg gcc-multilib autoconf automake1.9 libtool
+[36mec2-50-16-69-12.compute-1.amazonaws.com[0m   flex bison gdb gcc-doc gcc-4.4-multilib libmudflap0-4.4-dev gcc-4.4-locales
+[36mec2-50-16-69-12.compute-1.amazonaws.com[0m   libgcc1-dbg libgomp1-dbg libmudflap0-dbg libcloog-ppl0 libppl-c2 libppl7
+[36mec2-50-16-69-12.compute-1.amazonaws.com[0m   glibc-doc libstdc++6-4.4-doc graphviz ruby1.8-examples ri1.8 rubygems-doc
+[36mec2-50-16-69-12.compute-1.amazonaws.com[0m [36mec2-50-17-144-112.compute-1.amazonaws.com[0mThe following NEW packages will be installed:
+                              99% [Working]             99% [13 Sources bzip2 0B][36mec2-50-16-69-12.compute-1.amazonaws.com[0m
+   binutils build-essential dpkg-dev fakeroot g++ g++-4.4 gcc gcc-4.4 irb1.8
+[36mec2-50-16-69-12.compute-1.amazonaws.com[0m   libbreakpoint-ruby1.8 libc-dev-bin libc6-dev libcmdparse2-ruby1.8
+[36mec2-50-16-69-12.compute-1.amazonaws.com[0m   libdaemons-ruby1.8 libgomp1 liblog4r-ruby1.8 liblzma1 libmmap-ruby1.8
+[36mec2-50-16-69-12.compute-1.amazonaws.com[0m   libncurses-ruby1.8 libopenssl-ruby1.8 libreadline-ruby1.8 libreadline5
+[36mec2-50-16-69-12.compute-1.amazonaws.com[0m   libruby-extras libruby1.8 libruby1.8-extras libstdc++6-4.4-dev
+[36mec2-50-16-69-12.compute-1.amazonaws.com[0m   linux-libc-dev manpages-dev rdoc1.8 ruby ruby1.8 ruby1.8-dev rubygems1.8
+[36mec2-50-16-69-12.compute-1.amazonaws.com[0m   xz-utils
+[36mec2-50-16-69-12.compute-1.amazonaws.com[0m The following packages will be upgraded:
+[36mec2-50-16-69-12.compute-1.amazonaws.com[0m   libc-bin libc6 libc6-i686 libc6-xen wget
+[36mec2-50-16-69-12.compute-1.amazonaws.com[0m 5 upgraded, 34 newly installed, 0 to remove and 103 not upgraded.
+[36mec2-50-16-69-12.compute-1.amazonaws.com[0m Need to get 29.9MB of archives.
+[36mec2-50-16-69-12.compute-1.amazonaws.com[0m After this operation, 79.6MB of additional disk space will be used.
+[36mec2-50-16-69-12.compute-1.amazonaws.com[0m 0% [Working]
+[36mec2-67-202-54-27.compute-1.amazonaws.com[0m Reading package lists... 66%
+[36mec2-67-202-54-27.compute-1.amazonaws.com[0m Reading package lists... 85%Reading package lists... 85%
+[36mec2-67-202-54-27.compute-1.amazonaws.com[0m Reading package lists... 92%
+[36mec2-50-16-69-12.compute-1.amazonaws.com[0m             Get:1 http://us-east-1.ec2.archive.ubuntu.com/ubuntu/ lucid-updates/main libc-bin 2.11.1-0ubuntu7.8 [723kB]
+[36mec2-50-16-69-12.compute-1.amazonaws.com[0m             0% [1 libc-bin 0B/723kB 0%]
+[36mec2-50-16-69-12.compute-1.amazonaws.com[0m                            2% [Working]            Get:2 http://us-east-1.ec2.archive.ubuntu.com/ubuntu/ lucid-updates/main libc6 2.11.1-0ubuntu7.8 [3,780kB]
+[36mec2-50-16-69-12.compute-1.amazonaws.com[0m             2% [2 libc6 0B/3,780kB 0%]
+[36mec2-50-16-69-12.compute-1.amazonaws.com[0m                           15% [Working]             Get:3 http://us-east-1.ec2.archive.ubuntu.com/ubuntu/ lucid-updates/main libc6-xen 2.11.1-0ubuntu7.8 [1,233kB]
+[36mec2-50-16-69-12.compute-1.amazonaws.com[0m              15% [3 libc6-xen 0B/1,233kB 0%]
+[36mec2-50-16-69-12.compute-1.amazonaws.com[0m                                19% [Working]             Get:4 http://us-east-1.ec2.archive.ubuntu.com/ubuntu/ lucid-updates/main libc6-i686 2.11.1-0ubuntu7.8 [1,228kB]
+[36mec2-50-16-69-12.compute-1.amazonaws.com[0m              19% [4 libc6-i686 0B/1,228kB 0%]
+[36mec2-50-16-69-12.compute-1.amazonaws.com[0m                                 23% [Working]             Get:5 http://us-east-1.ec2.archive.ubuntu.com/ubuntu/ lucid-updates/main wget 1.12-1.1ubuntu2.1 [289kB]
+[36mec2-50-16-69-12.compute-1.amazonaws.com[0m              23% [5 wget 0B/289kB 0%]                        24% [Working]             Get:6 http://us-east-1.ec2.archive.ubuntu.com/ubuntu/ lucid-updates/main binutils 2.20.1-3ubuntu7.1 [1,601kB]
+[36mec2-50-16-69-12.compute-1.amazonaws.com[0m              24% [6 binutils 0B/1,601kB 0%]
+[36mec2-50-16-69-12.compute-1.amazonaws.com[0m                               29% [Working]             Get:7 http://us-east-1.ec2.archive.ubuntu.com/ubuntu/ lucid-updates/main libc-dev-bin 2.11.1-0ubuntu7.8 [214kB]
+[36mec2-50-16-69-12.compute-1.amazonaws.com[0m              29% [7 libc-dev-bin 0B/214kB 0%]                                30% [Working]             Get:8 http://us-east-1.ec2.archive.ubuntu.com/ubuntu/ lucid-updates/main linux-libc-dev 2.6.32-30.59 [810kB]
+[36mec2-50-16-69-12.compute-1.amazonaws.com[0m              30% [8 linux-libc-dev 0B/810kB 0%]
+[36mec2-50-16-69-12.compute-1.amazonaws.com[0m                                   33% [Working]             Get:9 http://us-east-1.ec2.archive.ubuntu.com/ubuntu/ lucid-updates/main libc6-dev 2.11.1-0ubuntu7.8 [4,839kB]
+[36mec2-50-16-69-12.compute-1.amazonaws.com[0m              33% [9 libc6-dev 0B/4,839kB 0%]
+[36mec2-50-16-69-12.compute-1.amazonaws.com[0m                                49% [Working]             Get:10 http://us-east-1.ec2.archive.ubuntu.com/ubuntu/ lucid/main libgomp1 4.4.3-4ubuntu5 [24.3kB]
+[36mec2-50-16-69-12.compute-1.amazonaws.com[0m              49% [10 libgomp1 0B/24.3kB 0%]                              49% [Working]             Get:11 http://us-east-1.ec2.archive.ubuntu.com/ubuntu/ lucid/main gcc-4.4 4.4.3-4ubuntu5 [2,986kB]
+[36mec2-50-16-69-12.compute-1.amazonaws.com[0m              49% [11 gcc-4.4 0B/2,986kB 0%]
+[36mec2-67-202-54-27.compute-1.amazonaws.com[0m Reading package lists... 93%Reading package lists... 93%
+[36mec2-50-17-144-112.compute-1.amazonaws.com[0m                          99% [Working]             99% [15 Sources bzip2 0B]
+[36mec2-50-17-144-112.compute-1.amazonaws.com[0m                          99% [Working]             99% [14 Packages bzip2 0B]
+[36mec2-50-17-144-112.compute-1.amazonaws.com[0m                           99% [14 Packages bzip2 2,331kB]
+[36mec2-67-202-54-27.compute-1.amazonaws.com[0m Reading package lists... 95%Reading package lists... 95%
+[36mec2-50-17-144-112.compute-1.amazonaws.com[0m                                99% [Working]             99% [16 Packages bzip2 0B]
+[36mec2-50-17-144-112.compute-1.amazonaws.com[0m                           99% [Working]             99% [17 Sources bzip2 0B]
+[36mec2-50-17-144-112.compute-1.amazonaws.com[0m                          99% [Working]             99% [18 Sources bzip2 0B]
+[36mec2-50-17-144-112.compute-1.amazonaws.com[0m                          100% [Working]              Fetched 12.0MB in 14s (853kB/s)
+[36mec2-50-17-144-112.compute-1.amazonaws.com[0m Reading package lists... 0%Reading package lists... 0%
+[36mec2-50-17-144-112.compute-1.amazonaws.com[0m Reading package lists... 1%
+[36mec2-50-16-69-12.compute-1.amazonaws.com[0m                               59% [Working]             Get:12 http://us-east-1.ec2.archive.ubuntu.com/ubuntu/ lucid/main gcc 4:4.4.3-1ubuntu1 [5,066B]
+[36mec2-50-16-69-12.compute-1.amazonaws.com[0m              59% [12 gcc 0B/5,066B 0%]                         59% [Working]             Get:13 http://us-east-1.ec2.archive.ubuntu.com/ubuntu/ lucid/main libstdc++6-4.4-dev 4.4.3-4ubuntu5 [1,491kB]
+[36mec2-50-16-69-12.compute-1.amazonaws.com[0m              59% [13 libstdc++6-4.4-dev 0B/1,491kB 0%]
+[36mec2-67-202-54-27.compute-1.amazonaws.com[0m Reading package lists... 98%Reading package lists... 98%
+[36mec2-50-16-69-12.compute-1.amazonaws.com[0m                                          64% [Working]             Get:14 http://us-east-1.ec2.archive.ubuntu.com/ubuntu/ lucid/main g++-4.4 4.4.3-4ubuntu5 [4,950kB]
+[36mec2-50-16-69-12.compute-1.amazonaws.com[0m              64% [14 g++-4.4 0B/4,950kB 0%]
+[36mec2-67-202-54-27.compute-1.amazonaws.com[0m Reading package lists... 99%Reading package lists... 99%
+[36mec2-50-17-144-112.compute-1.amazonaws.com[0m Reading package lists... 20%Reading package lists... 20%
+[36mec2-67-202-54-27.compute-1.amazonaws.com[0m Reading package lists... Done
+[36mec2-67-202-54-27.compute-1.amazonaws.com[0m Reading package lists... 0%Reading package lists... 100%Reading package lists... Done
+[36mec2-67-202-54-27.compute-1.amazonaws.com[0m Building dependency tree... 0%Building dependency tree... 0%
+[36mec2-67-202-54-27.compute-1.amazonaws.com[0m Building dependency tree... 50%Building dependency tree... 50%
+[36mec2-50-16-69-12.compute-1.amazonaws.com[0m                               80% [Working]             Get:15 http://us-east-1.ec2.archive.ubuntu.com/ubuntu/ lucid/main g++ 4:4.4.3-1ubuntu1 [1,442B]
+[36mec2-50-16-69-12.compute-1.amazonaws.com[0m              80% [15 g++ 0B/1,442B 0%]                         80% [Working]             Get:16 http://us-east-1.ec2.archive.ubuntu.com/ubuntu/ lucid/main liblzma1 4.999.9beta+20091116-1 [152kB]
+[36mec2-50-16-69-12.compute-1.amazonaws.com[0m              80% [16 liblzma1 0B/152kB 0%]                             81% [Working]             Get:17 http://us-east-1.ec2.archive.ubuntu.com/ubuntu/ lucid/main xz-utils 4.999.9beta+20091116-1 [228kB]
+[36mec2-50-16-69-12.compute-1.amazonaws.com[0m              81% [17 xz-utils 0B/228kB 0%]
+[36mec2-50-17-144-112.compute-1.amazonaws.com[0m Reading package lists... 37%
+[36mec2-67-202-54-27.compute-1.amazonaws.com[0m Building dependency tree       
+[36mec2-67-202-54-27.compute-1.amazonaws.com[0m Reading state information... 0%Reading state information... 1%Reading state information... Done
+[36mec2-50-16-69-12.compute-1.amazonaws.com[0m                              82% [Working]             Get:18 http://us-east-1.ec2.archive.ubuntu.com/ubuntu/ lucid-updates/main dpkg-dev 1.15.5.6ubuntu4.5 [654kB]
+[36mec2-50-16-69-12.compute-1.amazonaws.com[0m              82% [18 dpkg-dev 0B/654kB 0%]
+[36mec2-50-16-69-12.compute-1.amazonaws.com[0m                              84% [Working]             Get:19 http://us-east-1.ec2.archive.ubuntu.com/ubuntu/ lucid/main build-essential 11.4build1 [7,278B]
+[36mec2-50-16-69-12.compute-1.amazonaws.com[0m              84% [19 build-essential 0B/7,278B 0%]                                     84% [Working]
+[36mec2-50-16-69-12.compute-1.amazonaws.com[0m              Get:20 http://us-east-1.ec2.archive.ubuntu.com/ubuntu/ lucid/main fakeroot 1.14.4-1ubuntu1 [118kB]
+[36mec2-50-16-69-12.compute-1.amazonaws.com[0m              84% [20 fakeroot 0B/118kB 0%]                             84% [Working]             Get:21 http://us-east-1.ec2.archive.ubuntu.com/ubuntu/ lucid/main libruby1.8 1.8.7.249-2 [1,452kB]
+[36mec2-50-16-69-12.compute-1.amazonaws.com[0m              84% [21 libruby1.8 0B/1,452kB 0%]
+[36mec2-50-16-69-12.compute-1.amazonaws.com[0m                                  89% [Working]             Get:22 http://us-east-1.ec2.archive.ubuntu.com/ubuntu/ lucid/main ruby1.8 1.8.7.249-2 [24.1kB]
+[36mec2-50-16-69-12.compute-1.amazonaws.com[0m              89% [22 ruby1.8 0B/24.1kB 0%]                             89% [Working]             Get:23 http://us-east-1.ec2.archive.ubuntu.com/ubuntu/ lucid/main libreadline5 5.2-7build1 [132kB]
+[36mec2-50-16-69-12.compute-1.amazonaws.com[0m              89% [23 libreadline5 0B/132kB 0%]                                 90% [Working]             Get:24 http://us-east-1.ec2.archive.ubuntu.com/ubuntu/ lucid/main libreadline-ruby1.8 1.8.7.249-2 [10.4kB]
+[36mec2-50-16-69-12.compute-1.amazonaws.com[0m              90% [24 libreadline-ruby1.8 0B/10.4kB 0%]                                         90% [Working]             Get:25 http://us-east-1.ec2.archive.ubuntu.com/ubuntu/ lucid/main irb1.8 1.8.7.249-2 [80.3kB]
+[36mec2-50-16-69-12.compute-1.amazonaws.com[0m              90% [25 irb1.8 0B/80.3kB 0%]                            90% [Working]             Get:26 http://us-east-1.ec2.archive.ubuntu.com/ubuntu/ lucid/main ruby 4.2 [20.7kB]
+[36mec2-50-16-69-12.compute-1.amazonaws.com[0m              90% [26 ruby 0B/20.7kB 0%]                          90% [Working]             Get:27 http://us-east-1.ec2.archive.ubuntu.com/ubuntu/ lucid/universe libbreakpoint-ruby1.8 0.5.1-2 [15.6kB]
+[36mec2-50-16-69-12.compute-1.amazonaws.com[0m              90% [27 libbreakpoint-ruby1.8 0B/15.6kB 0%]                                           90% [Working]             Get:28 http://us-east-1.ec2.archive.ubuntu.com/ubuntu/ lucid/universe libcmdparse2-ruby1.8 2.0.2-2 [11.8kB]
+[36mec2-50-16-69-12.compute-1.amazonaws.com[0m              90% [28 libcmdparse2-ruby1.8 0B/11.8kB 0%]
+[36mec2-50-16-69-12.compute-1.amazonaws.com[0m                                           90% [Working]             Get:29 http://us-east-1.ec2.archive.ubuntu.com/ubuntu/ lucid/universe libdaemons-ruby1.8 1.0.10-2 [19.2kB]
+[36mec2-50-16-69-12.compute-1.amazonaws.com[0m              90% [29 libdaemons-ruby1.8 0B/19.2kB 0%]                                        90% [Working]             Get:30 http://us-east-1.ec2.archive.ubuntu.com/ubuntu/ lucid/universe liblog4r-ruby1.8 1.0.5-8 [154kB]
+[36mec2-50-16-69-12.compute-1.amazonaws.com[0m              90% [30 liblog4r-ruby1.8 0B/154kB 0%]                                     91% [Working]             Get:31 http://us-east-1.ec2.archive.ubuntu.com/ubuntu/ lucid/universe libmmap-ruby1.8 0.2.6-3 [18.9kB]
+[36mec2-50-16-69-12.compute-1.amazonaws.com[0m              91% [31 libmmap-ruby1.8 0B/18.9kB 0%]                                     91% [Working]             Get:32 http://us-east-1.ec2.archive.ubuntu.com/ubuntu/ lucid/universe libncurses-ruby1.8 1.2.4-2 [67.3kB]
+[36mec2-50-16-69-12.compute-1.amazonaws.com[0m              91% [32 libncurses-ruby1.8 0B/67.3kB 0%]                                        91% [Working]             Get:33 http://us-east-1.ec2.archive.ubuntu.com/ubuntu/ lucid/main libopenssl-ruby1.8 1.8.7.249-2 [122kB]
+[36mec2-50-16-69-12.compute-1.amazonaws.com[0m              91% [33 libopenssl-ruby1.8 0B/122kB 0%]
+.
+[36mPublic DNS Name[0m: ec2-184-73-91-91.compute-1.amazonaws.com
+  [WARN] Fog::AWS::Compute::Server => #ip_address is deprecated, use #public_ip_address instead (/Users/tnewton/.rvm/gems/ruby-1.8.7-p334/gems/fog-0.7.0/lib/fog/compute/models/aws/server.rb:9)
+[36mPublic IP Address[0m: 184.73.91.91
+[36mPrivate DNS Name[0m: domU-12-31-39-00-A9-A8.compute-1.internal
+[36mPrivate IP Address[0m: 10.254.174.86
+
+[35mWaiting for sshd[0m[36mec2-50-16-69-12.compute-1.amazonaws.com[0m                                        91% [Working]             Get:34 http://us-east-1.ec2.archive.ubuntu.com/ubuntu/ lucid/main rdoc1.8 1.8.7.249-2 [125kB]
+[36mec2-50-16-69-12.compute-1.amazonaws.com[0m              91% [34 rdoc1.8 0B/125kB 0%]                            92% [Working]             Get:35 http://us-east-1.ec2.archive.ubuntu.com/ubuntu/ lucid/universe rubygems1.8 1.3.5-1ubuntu2 [192kB]
+[36mec2-50-16-69-12.compute-1.amazonaws.com[0m              92% [35 rubygems1.8 0B/192kB 0%]
+[36mec2-50-16-69-12.compute-1.amazonaws.com[0m                                 92% [Working]             Get:36 http://us-east-1.ec2.archive.ubuntu.com/ubuntu/ lucid/universe libruby1.8-extras 0.5 [2,500B]
+[36mec2-50-16-69-12.compute-1.amazonaws.com[0m              92% [36 libruby1.8-extras 0B/2,500B 0%]                                       92% [Working]             Get:37 http://us-east-1.ec2.archive.ubuntu.com/ubuntu/ lucid/universe libruby-extras 0.5 [1,680B]
+[36mec2-50-16-69-12.compute-1.amazonaws.com[0m              92% [37 libruby-extras 0B/1,680B 0%]                                    92% [Working]             Get:38 http://us-east-1.ec2.archive.ubuntu.com/ubuntu/ lucid/main manpages-dev 3.23-1 [1,547kB]
+[36mec2-50-16-69-12.compute-1.amazonaws.com[0m              92% [38 manpages-dev 0B/1,547kB 0%]
+[36mec2-50-16-69-12.compute-1.amazonaws.com[0m                                    98% [Working]             Get:39 http://us-east-1.ec2.archive.ubuntu.com/ubuntu/ lucid/main ruby1.8-dev 1.8.7.249-2 [577kB]
+[36mec2-50-16-69-12.compute-1.amazonaws.com[0m              98% [39 ruby1.8-dev 0B/577kB 0%]
+[36mec2-50-16-69-12.compute-1.amazonaws.com[0m                                 100% [Working]              Fetched 29.9MB in 1s (15.9MB/s)
+.
+[36mPublic DNS Name[0m: ec2-204-236-245-225.compute-1.amazonaws.com
+  [WARN] Fog::AWS::Compute::Server => #ip_address is deprecated, use #public_ip_address instead (/Users/tnewton/.rvm/gems/ruby-1.8.7-p334/gems/fog-0.7.0/lib/fog/compute/models/aws/server.rb:9)
+[36mPublic IP Address[0m: 204.236.245.225
+[36mPrivate DNS Name[0m: ip-10-114-101-139.ec2.internal
+[36mPrivate IP Address[0m: 10.114.101.139
+
+[35mWaiting for sshd[0m[36mec2-67-202-54-27.compute-1.amazonaws.com[0m The following extra packages will be installed:
+[36mec2-67-202-54-27.compute-1.amazonaws.com[0m   binutils dpkg-dev fakeroot g++ g++-4.4 gcc gcc-4.4 irb1.8
+[36mec2-67-202-54-27.compute-1.amazonaws.com[0m   libbreakpoint-ruby1.8 libc-bin libc-dev-bin libc6 libc6-dev libc6-i686
+[36mec2-67-202-54-27.compute-1.amazonaws.com[0m   libc6-xen libcmdparse2-ruby1.8 libdaemons-ruby1.8 libgomp1 liblog4r-ruby1.8
+[36mec2-67-202-54-27.compute-1.amazonaws.com[0m   liblzma1 libmmap-ruby1.8 libncurses-ruby1.8 libopenssl-ruby1.8
+[36mec2-67-202-54-27.compute-1.amazonaws.com[0m   libreadline-ruby1.8 libreadline5 libruby1.8 libstdc++6-4.4-dev
+[36mec2-67-202-54-27.compute-1.amazonaws.com[0m   linux-libc-dev manpages-dev rdoc1.8 ruby1.8 rubygems1.8 xz-utils
+[36mec2-67-202-54-27.compute-1.amazonaws.com[0m Suggested packages:
+[36mec2-67-202-54-27.compute-1.amazonaws.com[0m   binutils-doc debian-keyring debian-maintainers g++-multilib g++-4.4-multilib
+[36mec2-67-202-54-27.compute-1.amazonaws.com[0m   gcc-4.4-doc libstdc++6-4.4-dbg gcc-multilib autoconf automake1.9 libtool
+[36mec2-67-202-54-27.compute-1.amazonaws.com[0m   flex bison gdb gcc-doc gcc-4.4-multilib libmudflap0-4.4-dev gcc-4.4-locales
+[36mec2-67-202-54-27.compute-1.amazonaws.com[0m   libgcc1-dbg libgomp1-dbg libmudflap0-dbg libcloog-ppl0 libppl-c2 libppl7
+[36mec2-67-202-54-27.compute-1.amazonaws.com[0m   glibc-doc libstdc++6-4.4-doc graphviz ruby1.8-examples ri1.8 rubygems-doc
+[36mec2-67-202-54-27.compute-1.amazonaws.com[0m The following NEW packages will be installed:
+[36mec2-67-202-54-27.compute-1.amazonaws.com[0m   binutils build-essential dpkg-dev fakeroot g++ g++-4.4 gcc gcc-4.4 irb1.8
+[36mec2-67-202-54-27.compute-1.amazonaws.com[0m   libbreakpoint-ruby1.8 libc-dev-bin libc6-dev libcmdparse2-ruby1.8
+[36mec2-67-202-54-27.compute-1.amazonaws.com[0m   libdaemons-ruby1.8 libgomp1 liblog4r-ruby1.8 liblzma1 libmmap-ruby1.8
+[36mec2-67-202-54-27.compute-1.amazonaws.com[0m   libncurses-ruby1.8 libopenssl-ruby1.8 libreadline-ruby1.8 libreadline5
+[36mec2-67-202-54-27.compute-1.amazonaws.com[0m   libruby-extras libruby1.8 libruby1.8-extras libstdc++6-4.4-dev
+[36mec2-67-202-54-27.compute-1.amazonaws.com[0m   linux-libc-dev manpages-dev rdoc1.8 ruby ruby1.8 ruby1.8-dev rubygems1.8
+[36mec2-67-202-54-27.compute-1.amazonaws.com[0m   xz-utils
+[36mec2-67-202-54-27.compute-1.amazonaws.com[0m The following packages will be upgraded:
+[36mec2-67-202-54-27.compute-1.amazonaws.com[0m   libc-bin libc6 libc6-i686 libc6-xen wget
+[36mec2-67-202-54-27.compute-1.amazonaws.com[0m 5 upgraded, 34 newly installed, 0 to remove and 103 not upgraded.
+[36mec2-67-202-54-27.compute-1.amazonaws.com[0m Need to get 29.9MB of archives.
+[36mec2-67-202-54-27.compute-1.amazonaws.com[0m After this operation, 79.6MB of additional disk space will be used.
+[36mec2-67-202-54-27.compute-1.amazonaws.com[0m 0% [Working]
+[36mec2-50-16-69-12.compute-1.amazonaws.com[0m Extracting templates from packages: 76%
+[36mec2-67-202-54-27.compute-1.amazonaws.com[0m             Get:1 http://us-east-1.ec2.archive.ubuntu.com/ubuntu/ lucid-updates/main libc-bin 2.11.1-0ubuntu7.8 [723kB]
+[36mec2-67-202-54-27.compute-1.amazonaws.com[0m             0% [1 libc-bin 0B/723kB 0%]
+[36mec2-50-16-69-12.compute-1.amazonaws.com[0m Extracting templates from packages: 100%
+[36mec2-50-16-69-12.compute-1.amazonaws.com[0m Preconfiguring packages ...
+[36mec2-50-17-144-112.compute-1.amazonaws.com[0m Reading package lists... 72%
+[36mec2-67-202-54-27.compute-1.amazonaws.com[0m                            2% [Working]            Get:2 http://us-east-1.ec2.archive.ubuntu.com/ubuntu/ lucid-updates/main libc6 2.11.1-0ubuntu7.8 [3,780kB]
+[36mec2-67-202-54-27.compute-1.amazonaws.com[0m             2% [2 libc6 0B/3,780kB 0%]
+done
+INFO: Bootstrapping Chef on [1m[0m
+[36mec2-50-16-69-12.compute-1.amazonaws.com[0m (Reading database ... 
+[36mec2-50-16-69-12.compute-1.amazonaws.com[0m (Reading database ... 5%(Reading database ... 10%(Reading database ... 15%(Reading database ... 20%(Reading database ... 25%(Reading database ... 30%(Reading database ... 35%(Reading database ... 40%(Reading database ... 45%(Reading database ... 50%(Reading database ... 55%(Reading database ... 60%(Reading database ... 65%(Reading database ... 70%
+[36mec2-50-16-69-12.compute-1.amazonaws.com[0m (Reading database ... 75%(Reading database ... 80%
+[36mec2-67-202-54-27.compute-1.amazonaws.com[0m                           15% [Working]             Get:3 http://us-east-1.ec2.archive.ubuntu.com/ubuntu/ lucid-updates/main libc6-xen 2.11.1-0ubuntu7.8 [1,233kB]
+[36mec2-67-202-54-27.compute-1.amazonaws.com[0m              15% [3 libc6-xen 0B/1,233kB 0%]
+[36mec2-50-16-69-12.compute-1.amazonaws.com[0m (Reading database ... 85%(Reading database ... 90%
+[36mec2-50-16-69-12.compute-1.amazonaws.com[0m (Reading database ... 95%(Reading database ... 100%(Reading database ... 24377 files and directories currently installed.)
+[36mec2-50-16-69-12.compute-1.amazonaws.com[0m Preparing to replace libc-bin 2.11.1-0ubuntu7 (using .../libc-bin_2.11.1-0ubuntu7.8_i386.deb) ...
+[36mec2-50-16-69-12.compute-1.amazonaws.com[0m Unpacking replacement libc-bin ...
+[36mec2-50-17-144-112.compute-1.amazonaws.com[0m Reading package lists... 85%Reading package lists... 85%
+[36mec2-67-202-54-27.compute-1.amazonaws.com[0m                                19% [Working]             Get:4 http://us-east-1.ec2.archive.ubuntu.com/ubuntu/ lucid-updates/main libc6-i686 2.11.1-0ubuntu7.8 [1,228kB]
+[36mec2-67-202-54-27.compute-1.amazonaws.com[0m              19% [4 libc6-i686 0B/1,228kB 0%]
+[36mec2-67-202-54-27.compute-1.amazonaws.com[0m                                 23% [Working]             Get:5 http://us-east-1.ec2.archive.ubuntu.com/ubuntu/ lucid-updates/main wget 1.12-1.1ubuntu2.1 [289kB]
+[36mec2-67-202-54-27.compute-1.amazonaws.com[0m              23% [5 wget 0B/289kB 0%]
+[36mec2-67-202-54-27.compute-1.amazonaws.com[0m                         24% [Working]             Get:6 http://us-east-1.ec2.archive.ubuntu.com/ubuntu/ lucid-updates/main binutils 2.20.1-3ubuntu7.1 [1,601kB]
+[36mec2-67-202-54-27.compute-1.amazonaws.com[0m              24% [6 binutils 0B/1,601kB 0%]
+[36mec2-50-16-69-12.compute-1.amazonaws.com[0m Processing triggers for man-db ...
+[36mec2-67-202-54-27.compute-1.amazonaws.com[0m                               29% [Working]             Get:7 http://us-east-1.ec2.archive.ubuntu.com/ubuntu/ lucid-updates/main libc-dev-bin 2.11.1-0ubuntu7.8 [214kB]
+[36mec2-67-202-54-27.compute-1.amazonaws.com[0m              29% [7 libc-dev-bin 0B/214kB 0%]
+[36mec2-50-17-144-112.compute-1.amazonaws.com[0m Reading package lists... 93%Reading package lists... 93%
+[36mec2-67-202-54-27.compute-1.amazonaws.com[0m                                 30% [Working]             Get:8 http://us-east-1.ec2.archive.ubuntu.com/ubuntu/ lucid-updates/main linux-libc-dev 2.6.32-30.59 [810kB]
+[36mec2-67-202-54-27.compute-1.amazonaws.com[0m              30% [8 linux-libc-dev 0B/810kB 0%]
+[36mec2-50-17-144-112.compute-1.amazonaws.com[0m Reading package lists... 95%Reading package lists... 95%
+[36mec2-67-202-54-27.compute-1.amazonaws.com[0m                                   33% [Working]
+[36mec2-67-202-54-27.compute-1.amazonaws.com[0m              Get:9 http://us-east-1.ec2.archive.ubuntu.com/ubuntu/ lucid-updates/main libc6-dev 2.11.1-0ubuntu7.8 [4,839kB]
+[36mec2-67-202-54-27.compute-1.amazonaws.com[0m              33% [9 libc6-dev 0B/4,839kB 0%]
+[36mec2-50-17-144-112.compute-1.amazonaws.com[0m Reading package lists... 98%Reading package lists... 98%
+[36mec2-50-17-144-112.compute-1.amazonaws.com[0m Reading package lists... 99%Reading package lists... 99%Reading package lists... 99%
+[36mec2-50-17-144-112.compute-1.amazonaws.com[0m Reading package lists... Done
+[36mec2-50-17-144-112.compute-1.amazonaws.com[0m Reading package lists... 0%Reading package lists... 100%Reading package lists... Done
+[36mec2-50-17-144-112.compute-1.amazonaws.com[0m Building dependency tree... 0%Building dependency tree... 0%
+[36mec2-67-202-54-27.compute-1.amazonaws.com[0m                                49% [Working]             Get:10 http://us-east-1.ec2.archive.ubuntu.com/ubuntu/ lucid/main libgomp1 4.4.3-4ubuntu5 [24.3kB]
+[36mec2-67-202-54-27.compute-1.amazonaws.com[0m              49% [10 libgomp1 0B/24.3kB 0%]                              49% [Working]             Get:11 http://us-east-1.ec2.archive.ubuntu.com/ubuntu/ lucid/main gcc-4.4 4.4.3-4ubuntu5 [2,986kB]
+[36mec2-67-202-54-27.compute-1.amazonaws.com[0m              49% [11 gcc-4.4 0B/2,986kB 0%]
+[36mec2-50-17-144-112.compute-1.amazonaws.com[0m Building dependency tree... 50%Building dependency tree... 50%
+[36mec2-67-202-54-27.compute-1.amazonaws.com[0m                               59% [Working]             Get:12 http://us-east-1.ec2.archive.ubuntu.com/ubuntu/ lucid/main gcc 4:4.4.3-1ubuntu1 [5,066B]
+[36mec2-67-202-54-27.compute-1.amazonaws.com[0m              59% [12 gcc 0B/5,066B 0%]                         59% [Working]             Get:13 http://us-east-1.ec2.archive.ubuntu.com/ubuntu/ lucid/main libstdc++6-4.4-dev 4.4.3-4ubuntu5 [1,491kB]
+[36mec2-67-202-54-27.compute-1.amazonaws.com[0m              59% [13 libstdc++6-4.4-dev 0B/1,491kB 0%]
+[36mec2-67-202-54-27.compute-1.amazonaws.com[0m                                          64% [Working]             Get:14 http://us-east-1.ec2.archive.ubuntu.com/ubuntu/ lucid/main g++-4.4 4.4.3-4ubuntu5 [4,950kB]
+[36mec2-67-202-54-27.compute-1.amazonaws.com[0m              64% [14 g++-4.4 0B/4,950kB 0%]
+[36mec2-50-17-144-112.compute-1.amazonaws.com[0m Building dependency tree       
+[36mec2-50-17-144-112.compute-1.amazonaws.com[0m Reading state information... 0%Reading state information... 1%Reading state information... Done

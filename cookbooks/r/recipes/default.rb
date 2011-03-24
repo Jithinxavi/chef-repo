@@ -6,7 +6,7 @@
 #
 # Licensed under the Apache License, Version 2.0 (the "License");
 # you may not use this file except in compliance with the License.
-# You may obtain a copy of the License at
+# You may obtain a copy of the License 
 #
 #     http://www.apache.org/licenses/LICENSE-2.0
 #
@@ -28,3 +28,9 @@ gem_package "rsruby" do
   action :install
   options "-- --with-R-dir=/usr/lib/R --with-R-include=/usr/share/R/include"
 end
+
+link "/usr/local/lib/libR.so" do
+  to "/usr/lib/R/lib/libR.so"
+end
+
+execute "ldconfig" 

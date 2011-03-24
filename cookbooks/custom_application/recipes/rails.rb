@@ -175,6 +175,12 @@ deploy_revision app['id'] do
       link "#{release_path}/vendor/bundle" do
         to "#{app['deploy_to']}/shared/vendor_bundle"
       end
+      if app['bundler-config']
+        execute "bundle config #{app['bundler-config']}" do
+          ignore_failure false
+          cwd release_path
+        end
+      end
       common_groups = %w{development test cucumber staging production}
       execute "bundle install --deployment --without #{(common_groups -([node.app_environment])).join(' ')}" do
         ignore_failure true
