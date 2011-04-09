@@ -1,0 +1,16 @@
+#!/usr/bin/ruby
+
+STDOUT.flush
+
+unless ARGV.length == 1
+  puts "deploy <ip_address>"
+  Process.exit
+end
+
+def ipaddress
+  ARGV[0]
+end
+
+cmd = "ssh -i ~/.ssh/ec2-keypair.pem  -t ubuntu@#{ipaddress} 'sudo chef-client'"
+
+puts `#{cmd}`

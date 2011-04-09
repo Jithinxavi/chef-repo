@@ -131,7 +131,7 @@ if app["database_master_role"]
       group app["group"]
       mode "644"
       variables(
-        :host => dbm['fqdn'],
+        :host => dbm['fqdn'],  
         :databases => app['databases']
       )
     end

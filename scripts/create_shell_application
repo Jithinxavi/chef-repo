@@ -1,0 +1,2 @@
+nohup time ~/development/chef-repo/scripts/create_mroi_amazon > ~/Desktop/logs/mroi.log 2>&1 &
+nohup time ~/development/chef-repo/scripts/create_solvency_amazon > ~/Desktop/logs/solvency.log 2>&1 &
