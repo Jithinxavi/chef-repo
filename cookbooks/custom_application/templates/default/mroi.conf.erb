@@ -7,6 +7,7 @@
   RailsEnv <%= @params[:rails_env] %>
   RailsAllowModRewrite on
   PassengerMaxPoolSize <%= node[:rails][:max_pool_size] %>
+  SetEnv R_HOME /usr/lib/R
 
   <Directory <%= @params[:docroot] %>>
     Options FollowSymLinks
