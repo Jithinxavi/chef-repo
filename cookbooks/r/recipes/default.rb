@@ -41,7 +41,9 @@ bash "install-r-modules" do
   code <<-EOH
   wget http://cran.r-project.org/src/contrib/quadprog_1.5-3.tar.gz
   wget http://cran.r-project.org/src/contrib/BB_2011.2-1.tar.gz
+  wget http://cran.r-project.org/src/contrib/bigmemory_4.2.3.tar.gz
   R CMD INSTALL  quadprog_1.5-3.tar.gz
   R CMD INSTALL  BB_2011.2-1.tar.gz
+  R CMD INSTALL  bigmemory_4.2.3.tar.gz
   EOH
 end

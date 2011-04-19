@@ -1,0 +1,1 @@
+knife node list | grep "," | egrep -v "ubuntu|c0f" | perl   -lane  '$F[0] =~ s/\,|\"//g; print "knife node delete $F[0] -y" ' |sh
