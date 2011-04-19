@@ -34,3 +34,14 @@ link "/usr/local/lib/libR.so" do
 end
 
 execute "ldconfig" 
+
+bash "install-r-modules" do
+  user "root"
+  cwd "/tmp"
+  code <<-EOH
+  wget http://cran.r-project.org/src/contrib/quadprog_1.5-3.tar.gz
+  wget http://cran.r-project.org/src/contrib/BB_2011.2-1.tar.gz
+  R CMD INSTALL  quadprog_1.5-3.tar.gz
+  R CMD INSTALL  BB_2011.2-1.tar.gz
+  EOH
+end
